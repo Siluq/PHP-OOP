@@ -4,9 +4,10 @@
     require_once('figuur.class.php');
     require_once('cilinder.class.php');
     require_once('vierkant.class.php');
+    require_once('driehoek.class.php');
     
     // Objecten worden gemaakt van opdracht
-    $mijn_vierkant = new Vierkant(5);
+    $mijn_vierkant = new Vierkant(5, 5);
     $mijn_vierkant->setOmschrijving("vierkant");
     $mijn_cilinder = new Cilinder(10, 3);
     $mijn_cilinder->setOmschrijving("Cilinder");  
@@ -31,4 +32,11 @@
     echo "<br>";
     echo $mijn_tweede_cilinder->berekenOppervlakte();
 
+    // De extra driehoek figuur word gemaakt
+    $mijn_driehoek = new Driehoek(10, 5);
+    $mijn_driehoek->setOmschrijving("Driehoek");
+
+    // Extra Opdracht driehoek.class
+    echo "<br><br><hr>Het extra driehoek objecten met zelf verzonnen afmetingen<hr>";
+    echo $mijn_driehoek->berekenOppervlakte();
 ?>

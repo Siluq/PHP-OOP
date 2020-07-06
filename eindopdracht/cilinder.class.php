@@ -2,7 +2,7 @@
 
     /**
      * class Cilinder extends Figuur
-     * class Cilinder si an child class of the class Figuur
+     * class Cilinder is an child class of the class Figuur
      */
     class Cilinder extends Figuur {
 

@@ -19,7 +19,7 @@
         /**
          * this is a public construct method
          * 
-         * in the cunstruct method funcion setX & funcion setY
+         * in the cunstruct method funcion setX & funcion setY & funcion setB & funcion setH
          * will be executed
          * 
          * @var int $Ix
