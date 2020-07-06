@@ -14,8 +14,8 @@
      * 
      * @return void
      */
-    public function __construct($Ix, $Iy) {
-        parent::__construct($Ix, $Iy);
+    public function __construct($Ib, $Ih) {
+        parent::__construct($Ib, $Ih);
         
     }
 
